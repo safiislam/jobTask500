@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+
+.section-container {
+  @apply w-[95%] md:w-[90%] xl:w-[1200px] 2xl:w-[1320px] mx-auto;
+}
+
+@font-face {
+  font-family: "Bakilda Histori";
+  src: url("/fonts/bakilda-histori.ttf") format("truetype");
+}
+.lemonada {
+  font-family: "Lemonada", cursive;
+  font-optical-sizing: auto;
+  /* font-weight: 500; */
+}
